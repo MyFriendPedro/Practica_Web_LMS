@@ -12,6 +12,39 @@
 }
 
 
+
+#home,#componentes,#juegos,#contacto,#acceder{
+    color: #00ff00;
+    padding: 2px;
+    float: left;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:link{
+    color: #00ff00;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #00ff00;
+}
+
+a:hover{
+    color: #f700ff;
+    
+}
+
+#sectionIndex{
+    text-align: center;
+    padding: 10px;
+    color: #00ff00;
+}
+
+
+
 /*login*/
 
 /*contact*/
