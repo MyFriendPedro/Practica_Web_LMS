@@ -1,17 +1,11 @@
-#headerIndex,#headerContact{
+/*css general*/
+#headerIndex,#headerContact,#headerLogin,#headerComp,#headerJuego{
     text-align: center;
     padding: 50px;
     color: #00ff00;
     font-size: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-/*index*/
-#bodyIndex{
-    background-color: #000000;
-}
-
-
 
 #home,#componentes,#juegos,#contacto,#acceder{
     color: #00ff00;
@@ -21,6 +15,10 @@
     margin-right: 100px;
     margin-top: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#bodyIndex,#bodyLogin,#bodyContact,#bodyComp,#bodyJuego{
+    background-color: #000000;
 }
 
 a:link{
@@ -37,6 +35,8 @@ a:hover{
     
 }
 
+
+/*index*/
 #sectionIndex{
     text-align: center;
     padding: 10px;
@@ -47,7 +47,14 @@ a:hover{
 
 /*login*/
 
+
 /*contact*/
+
+
+/*componentes*/
+
+
+
 
 
 
