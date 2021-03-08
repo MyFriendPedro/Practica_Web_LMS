@@ -1,15 +1,17 @@
 /*css general*/
-#headerIndex,#headerContact,#headerLogin,#headerComp,#headerJuego{
+#headerIndex,#headerContact,#headerLogin,#headerTienda,#headerNoti{
     text-align: center;
     padding: 50px;
-    color: #00ff00;
+    color: #000000;
     font-size: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#home,#componentes,#juegos,#contacto,#acceder{
-    color: #00ff00;
+#home,#tienda,#noticias,#contacto,#acceder{
+    color: #000000;
+    font-size: 19px;
     padding: 2px;
+    background-color: aqua;
     float: left;
     margin-left: 200px;
     margin-right: 100px;
@@ -17,17 +19,17 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#bodyIndex,#bodyLogin,#bodyContact,#bodyComp,#bodyJuego{
-    background-color: #000000;
+#bodyIndex,#bodyLogin,#bodyContact,#bodyTienda,#bodyNoti{
+    background-color: #ffffff;
 }
 
 a:link{
-    color: #00ff00;
+    color: #000000;
     text-decoration: none;
 }
 
 a:visited{
-    color: #00ff00;
+    color: #000000;
 }
 
 a:hover{
@@ -39,8 +41,12 @@ a:hover{
 /*index*/
 #sectionIndex{
     text-align: center;
-    padding: 10px;
-    color: #00ff00;
+    padding: 100px;
+    color: #000000;
+    margin-top: 100px;
+    margin-right: 140px;
+    margin-left: 200px;
+    background-color: blueviolet;
 }
 
 
