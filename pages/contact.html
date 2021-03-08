@@ -60,14 +60,39 @@
             <section id="sectionForm">
 
                 <form id="formulario">
-                    <p>Nombre:</p>
-                    <input type="text" id="nombre">
+                    <label>Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Escriba su nombre">
 
-                    <p>Apellidos:</p>
-                    <input type="text" id="apellidos">
+                    </br></br></br>
 
-                    <p>Correo electronico</p>
-                    <input type="email" id="email">
+                    <label>Apellidos:</label>
+                    <input type="text" id="apellidos" size="30px" placeholder="Escriba sus dos primeros apellidos">
+
+                    </br></br></br>
+
+                    <label>Correo electronico:</label>
+                    <input type="email" id="email" size="25px" placeholder="example@gmail.com">
+
+                    </br></br></br>
+
+                    <label>Numero de telefono:</label>
+                    <input type="text" id="telefono" maxlength="9" placeholder="XXX XX XX XX">
+
+                    </br></br></br>
+
+                    <label>Mensaje:</label>
+                    </br>
+
+                    <textarea id="mensaje"></textarea>
+
+                    </br></br></br>
+
+                    <input type="image" id="enviar" src="../images/send.png" title="Pulsa para enviar">
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <input type="image" id="reiniciar" onclick="formulario.reset()" src="../images/reload.png" title="Pulsa para reiniciar el formulario">
+                    
                 </form>
 
             </section>
