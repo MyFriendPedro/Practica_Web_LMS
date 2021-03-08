@@ -11,12 +11,20 @@
     color: #000000;
     font-size: 19px;
     padding: 2px;
-    background-color: aqua;
     float: left;
     margin-left: 200px;
     margin-right: 100px;
     margin-top: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#sectionIndex,#sectionTienda,#sectionContact,#sectionNoticias,#sectionLogin{
+    text-align: center;
+    padding: 100px;
+    color: #000000;
+    margin-top: 100px;
+    margin-right: 140px;
+    margin-left: 200px; 
 }
 
 #bodyIndex,#bodyLogin,#bodyContact,#bodyTienda,#bodyNoti{
@@ -34,27 +42,38 @@ a:visited{
 
 a:hover{
     color: #f700ff;
-    
+    text-decoration-line:overline;
+    text-decoration-thickness: 3px;
 }
 
 
 /*index*/
-#sectionIndex{
-    text-align: center;
-    padding: 100px;
-    color: #000000;
-    margin-top: 100px;
-    margin-right: 140px;
-    margin-left: 200px;
-    background-color: blueviolet;
-}
-
 
 
 /*login*/
 
 
 /*contact*/
+#sectionContact{
+    height: 400px;
+}
+
+#divCont{
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#divCont2{
+    margin-top: 10px    ;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#formulario{
+    font-family: 'handwriting';
+}
 
 
 /*componentes*/
