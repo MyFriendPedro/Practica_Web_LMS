@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="../styles/styles.css" rel="stylesheet" type="text/css">
-    <link rel="icon" type="text/ico" href="../images/fav.ico">
+    <link rel="icon" type="text/ico" href="../assets/fav.ico">
     <title>Contacto</title>
 </head>
 
@@ -52,30 +52,32 @@
     <main>
     
         <section id="sectionContact">
-            
-            <div id="divCont">Formulario de contacto</div>
-
-            <div id="divCont2">En caso de que tengas alguna duda o propuesta, no dudes en contactar con nosotros rellenando este formulario</div>
 
             <section id="sectionForm">
 
-                <form id="formulario">
+                <div id="divCont">En caso de que tengas alguna duda o propuesta, no dudes en contactar con nosotros rellenando este formulario</div>
+
+                <form id="formularioContacto">
                     <label>Nombre:</label>
+                    <br><br>
                     <input type="text" id="nombre" placeholder="Escriba su nombre">
 
-                    </br></br></br>
+                    </br></br>
 
                     <label>Apellidos:</label>
+                    <br><br>
                     <input type="text" id="apellidos" size="30px" placeholder="Escriba sus dos primeros apellidos">
 
-                    </br></br></br>
+                    </br></br>
 
                     <label>Correo electronico:</label>
+                    <br><br>
                     <input type="email" id="email" size="25px" placeholder="example@gmail.com">
 
                     </br></br></br>
 
                     <label>Numero de telefono:</label>
+                    <br><br>
                     <input type="text" id="telefono" maxlength="9" placeholder="XXX XX XX XX">
 
                     </br></br></br>
@@ -87,11 +89,11 @@
 
                     </br></br></br>
 
-                    <input type="image" id="enviar" src="../images/send.png" title="Pulsa para enviar">
+                    <input type="submit" id="enviar" title="Pulsa para enviar">
 
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-                    <input type="image" id="reiniciar" onclick="formulario.reset()" src="../images/reload.png" title="Pulsa para reiniciar el formulario">
+                    <input type="reset" id="reiniciar" title="Pulsa para reiniciar el formulario">
                     
                 </form>
 
