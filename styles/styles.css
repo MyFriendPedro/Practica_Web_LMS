@@ -7,6 +7,23 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#hTy,#hTj,#hL,#hP,#hJ,#hD{
+    text-align: center;
+    padding: 75px;
+    color: #000000;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#mTy,#mTj,#mL,#mP,#mJ,#mD{
+    width: 100%;
+    max-width: 1000px;
+    height: 570px;
+    margin: 0 auto;
+    box-shadow: 0 0 40px 0 #6e6e6e;
+}
+
+
 #home,#tienda,#noticias,#contacto,#acceder{
     color: #000000;
     font-size: 19px;
@@ -455,5 +472,68 @@ a:hover{
 
 #dTy,#dTj,#dD,#dL,#dJ,#dP{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#x001{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+#x002{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 600px;
+}
+
+#x003{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 620px;
+}
+
+#x004{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 645px;
+}
+
+#x005{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 665px;
+}
+
+#VC{
+    position: absolute;
+    margin-top: 425px;
+    margin-left: 575px;
+    width: 250px;
+}
+
+#x006{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px;
+    float: left;
+}
+
+#x007{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px;
+    float: right;
 }
 
