@@ -1,4 +1,10 @@
 /*css general*/
+footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #969696;
+    padding: 10px;
+    margin-top: 25px;
+}
 #headerIndex,#headerContact,#headerLogin,#headerTienda,#headerNoti,#headerRegis{
     text-align: center;
     padding: 50px;
@@ -46,7 +52,9 @@
     margin-top: 55px;
     margin-right: 140px;
     margin-left: 200px; 
+    margin-bottom: 20px;
 }
+
 
 #bodyIndex,#bodyLogin,#bodyContact,#bodyTienda,#bodyNoti{
     background-color: #ffffff;
@@ -95,10 +103,12 @@ a:hover{
     text-decoration-line: none;
     text-decoration-thickness: none;
 }
-
+#sectionIndex{
+    height: 220px;
+}
 #redesSociales{
     padding: 10px;
-    height: 150px;
+    height: 100px;
     width: 100%;
     margin: 0 auto;
     max-width: 1000px;
