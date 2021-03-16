@@ -30,8 +30,8 @@
     font-size: 19px;
     padding: 2px;
     float: left;
-    margin-left: 200px;
-    margin-right: 100px;
+    margin-left: 220px;
+    margin-right: 50px;
     margin-top: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     list-style: none;
@@ -245,7 +245,7 @@ a:hover{
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 150px;
     margin-bottom: 30px;
     box-shadow: 0 0 20px 0 #6e6e6e;
 }
